@@ -44,6 +44,8 @@ llm_test：测试qa_chain（llm+knowledge）和RAG检索增强（llm+faiss)的�
 
 启动前需要完成vue项目的环境配置。
 
+需要先运行服务器端，得到api接口地址，在src/components/MainLLM.vue中修改请求的url。
+
 启动流程：在本目录下运行命令*yarn serve*，即可启动前端
 
 前端界面功能说明：提供两种模型可运行，llm+faiss和llm+knowledge。推荐使用llm+faiss效果更好。
